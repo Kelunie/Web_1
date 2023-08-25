@@ -1,0 +1,53 @@
+/* Estilos personalizados para el contenedor del sombreado */
+.custom-shadow-container {
+     /* Color del sombreado */
+    padding: 10px; /* Espacio de relleno para separar el contenido del sombreado */
+    border-radius: 10px; /* Ajusta el valor según el radio de las esquinas del sombreado */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Aplica sombra alrededor del contenedor */
+  }
+  /* Estilos personalizados para mover la tabla hacia abajo */
+  .custom-table {
+    margin-top: 100px; /* Ajusta el valor según el espacio deseado */
+  }
+  /* Estilo para mover hacia abajo el contenido*/
+  .custom-margingt{ /* Ajusta el margin top*/
+    margin-top: 100px;
+  }
+  .custom-margingl{ /* Ajusta el margin left*/
+    margin-left: 100px;
+  }
+  .custom-padding{
+    padding-right : 200px;
+    margin-left: 100px;
+  }
+  .custom-border{
+    border: 1px solid rgb(121, 110, 110);
+    border-radius: 5px;
+    padding: 8px;
+}
+.checkbox-container {
+  margin-right: 0px; /* Ajusta el valor del margen derecho según sea necesario */
+}
+.custom-margingft{ /* Ajusta el margin del forgot password*/
+  margin-top: -25px;
+}
+.custom-margingc{ /* Ajusta el margin del checkbox*/
+  margin-top: 20px;
+}
+.my-custom-color {
+  color: blue; /* Reemplaza #ff0000 por el código de color que desees */
+  color: #ffffff; /* Cambia el color del texto si es necesario */
+}
+.btn-block { /* Ajusta el boton sea en bloque completo*/
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+.btn-block-custom {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+.custom-imagen{ /*ajusta el largo de la imagen*/
+  height: 70vh;
+}

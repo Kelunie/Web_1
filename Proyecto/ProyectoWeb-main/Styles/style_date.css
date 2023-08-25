@@ -1,0 +1,106 @@
+body {
+    font-family: sans-serif;
+    margin: auto;
+    padding: 0;
+    font-size: 100%;
+    background-color: #cac6ae;
+    color: black;
+  }
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  .table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  .barraDeContenido{
+    align-items: center;
+  
+  }
+  
+  .btn{
+    padding: 12px 25px !important;
+    font-weight: bolder !important;
+    border-radius: 100px !important;
+    transition: background-color 0.5s, color 0.5s !important;
+  
+  
+  }
+  .btn:hover {
+    color: #fdfdfd !important;
+    scale: 1,1;
+  }
+  .registroBtn{
+  background-color: #6f58f0 !important;
+  color: white !important;
+  
+  }
+    
+  .registroBtn:hover {
+      background-color: #122d85 !important;
+      opacity: 0.8;
+  
+  }
+  
+  .informacion{
+    align-items: center;
+  }
+  
+  .serviciosExtra{
+    padding: 10% 0% 10% 0% !important;
+  
+  }
+  
+  .carousel-item{
+    padding: 15.5%;
+  
+  }
+  
+  .h1, .h4, .h1{
+    padding: 0px 0px 40px 0px;
+    color: #000000 !important;
+  }
+  
+  .redes_sociales{
+    color: black; 
+    padding-left: 20px;
+  }
+  
+  .redes_sociales:hover{
+    color: #FFA500 !important;
+    transition: color 0.5s 0.05s;
+  }
+  
+  footer {
+    padding: 5%;
+    background-color: teal;
+    font-size: 25px;
+  }
+  
+  .custom-dropdown-btn {
+    background-color: #008080; 
+    color: black; 
+  }
+  
+  .custom-dropdown-menu {
+    background-color: #cac6ae; 
+    color: black; 
+  }
+  .custom-btn {
+    background-color: #008080 !important; 
+    color: black !important; 
+  }
+  
+  .custom-btn:hover {
+    background-color: whitesmoke !important; 
+    color: black !important; 
+  }
+  
+  

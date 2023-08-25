@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: "Arial", sans-serif;
+}
+#display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+
+.fondo1{
+    background-color: rgba(230,230,230,255);
+}
+button.btn-primary{
+    background-color: rgba(230,230,230,255);
+    border-color: rgba(230,230,230,255);
+    color: #000;
+}
+button.btn-primary:hover {
+    background-color: #e67e22; /* Cambia el color del hover según tus preferencias */
+    border-color: #e67e22; /* Cambia el color del borde del hover si lo deseas */
+}
+button.btn-secondary{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #000;
+}
+button.btn-secondary:hover {
+    background-color: #e67e22; /* Cambia el color del hover según tus preferencias */
+    border-color: #e67e22; /* Cambia el color del borde del hover si lo deseas */
+}
+button.btn-success{
+    background-color: #fd7d4a;
+    border-color: #fd7d4a;
+    color: #000;
+}
+button.btn-success:hover {
+    background-color: #e67e22; /* Cambia el color del hover según tus preferencias */
+    border-color: #e67e22; /* Cambia el color del borde del hover si lo deseas */
+}
+.igual {
+    height: 200px;
+    border: 1px solid #333;
+  }
+  
+.demas {
+    height: 40px;
+    border: 1px solid #333;
+  }
+  .btn-custom {
+    height: 200px; /* Cambia la altura según tus preferencias */
+}

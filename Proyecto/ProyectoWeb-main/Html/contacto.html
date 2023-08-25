@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="icon" href="/Images/Favicon.jpg" />
+    <link rel="stylesheet" href="/Styles/forms_styles.css" />
+  </head>
+  <body>
+    <div class="fondo">
+      <div class="informacion">
+        <a href="index.html" class="boton-volver">X</a>
+        <img src="/Images/Logo.png" alt="Logo" class="logo" />
+        <h1>Contacto</h1>
+        <form action="/submit_form" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" required autocomplete="off" />
+
+          <label for="apellido">Apellidos</label>
+          <input type="text" name="apellido" required autocomplete="off" />
+
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" name="correo" required autocomplete="off" />
+
+          <label for="mensaje">Cuentanos tus dudas o sugerencias:</label>
+          <textarea
+            name="mensaje"
+            rows="5"
+            required
+            autocomplete="off"
+          ></textarea>
+          <input type="submit" value="Enviar mensaje" />
+        </form>
+        <p>
+          ¿Deseas volver a la página de inicio?
+          <a href="index.html">Haz clic aquí</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
